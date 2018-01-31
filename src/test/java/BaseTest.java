@@ -44,9 +44,3 @@ public class BaseTest {
         driver.findElement(locator).sendKeys(value);
     }
 }
-
-
-}
-
-
-}

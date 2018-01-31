@@ -9,21 +9,24 @@ public class TestProperties {
 
     public static TestProperties INSTANCE = null;
 
-    TestProperties(){
+    TestProperties() {
         try {
-            properties.load(new FileInputStream(new File("./" +System.getProperty("environment") + ".properties")));
+            properties.load(new FileInputStream(new File("./" + System.getProperty("environment") + ".properties")));
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
+
     public static TestProperties getInstance() {
-        if (INSTANCE == null){
+        if (INSTANCE == null) {
             INSTANCE = new TestProperties();
         }
         return INSTANCE;
     }
+
     public Properties getProperties() {
         return properties;
     }
-    }
 }
+
+
