@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class MarketElec {
 
-    @FindBy(xpath = "//A[@class='link catalog-menu__list-item metrika i-bem metrika_js_inited'][text()='Телевизоры']")
+    @FindBy(xpath = "//A[@class='link catalog-menu__list-item metrika i-bem metrika_js_inited']")
     WebElement elecButt;
 
     public void setElecButt(String elecItem) {

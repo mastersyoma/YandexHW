@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class YaMain {
 
-    @FindBy(xpath = "//A[@class='home-link home-link_blue_yes home-tabs__link home-tabs__search'][text()='Маркет']")
+    @FindBy(xpath = "//A[@class='home-link home-link_blue_yes home-tabs__link home-tabs__search']")
     WebElement yaButt;
 
     public void setYaButt(String mainMenuItem) {
