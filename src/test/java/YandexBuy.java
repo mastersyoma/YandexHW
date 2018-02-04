@@ -1,6 +1,5 @@
 import org.junit.Test;
 import pages.MarketElec;
-import pages.MarketElecs;
 import pages.MarketMain;
 import pages.MarketSearch;
 import pages.YaMain;

@@ -5,6 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class MarketElec {
 
@@ -20,6 +24,6 @@ public class MarketElec {
 
     public void setElecButt(String elecItem) {
         elecButt.findElement(By.xpath(
-                "//A[text()='"+elecItem+"']"));
+                "//A[@class='link catalog-menu__list-item metrika i-bem metrika_js_inited'][text()='"+elecItem+"']")).click();
     }
 }

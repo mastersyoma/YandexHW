@@ -2,8 +2,12 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -38,6 +42,8 @@ public class BaseTest {
     public static void tearDown() throws Exception {
         driver.quit();
     }
+
+    //Wait<WebDriver> wait = new WebDriverWait(driver,5);
 
     public void fillField(By locator, String value){
         driver.findElement(locator).clear();
