@@ -1,49 +1,49 @@
 {
   "time" : {
-    "start" : 1518393646881,
-    "stop" : 1518393647839,
-    "duration" : 958
+    "start" : 1518391654315,
+    "stop" : 1518391654385,
+    "duration" : 70
   },
   "testSuites" : [ {
-    "uid" : "9247b46817f26ca7",
-    "name" : "Яндекс.Маркет",
-    "title" : "Маркет",
+    "uid" : "360162b32edf5a20",
+    "name" : "Яндекс",
+    "title" : "Яндекс",
     "time" : {
-      "start" : 1518393646881,
-      "stop" : 1518393647839,
-      "duration" : 958
+      "start" : 1518391654315,
+      "stop" : 1518391654385,
+      "duration" : 70
     },
     "statistic" : {
       "total" : 2,
       "passed" : 0,
-      "pending" : 0,
+      "pending" : 2,
       "canceled" : 0,
       "failed" : 0,
-      "broken" : 2
+      "broken" : 0
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "c6b777a072eedba7",
+      "uid" : "a8a17440305e6072",
       "name" : "Поиск телевизора в Яндекс.Маркете",
       "title" : "Поиск телевизора в Яндекс.Маркете",
       "time" : {
-        "start" : 1518393646881,
-        "stop" : 1518393647793,
-        "duration" : 912
+        "start" : 1518391654315,
+        "stop" : 1518391654365,
+        "duration" : 50
       },
       "severity" : "NORMAL",
-      "status" : "BROKEN"
+      "status" : "PENDING"
     }, {
-      "uid" : "c5d908792b3055b0",
+      "uid" : "58a75b39e1c541d8",
       "name" : "Поиск наушников в Яндекс.Маркете",
       "title" : "Поиск наушников в Яндекс.Маркете",
       "time" : {
-        "start" : 1518393647808,
-        "stop" : 1518393647839,
-        "duration" : 31
+        "start" : 1518391654370,
+        "stop" : 1518391654385,
+        "duration" : 15
       },
       "severity" : "NORMAL",
-      "status" : "BROKEN"
+      "status" : "PENDING"
     } ]
   } ]
 }

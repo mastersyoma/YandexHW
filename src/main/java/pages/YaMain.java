@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class YaMain{
+public class YaMain extends BasePage{
 
     WebDriver driver;
 
@@ -17,6 +17,10 @@ public class YaMain{
 
     @FindBy(xpath = "//A[@class='home-link home-link_blue_yes home-tabs__link home-tabs__search']")
     WebElement yaButt;
+
+    public YaMain() {
+
+    }
 
     public void setYaButt(String mainMenuItem) {
         yaButt.findElement(By.xpath

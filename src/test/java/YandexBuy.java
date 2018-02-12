@@ -1,3 +1,5 @@
+/*
+import org.junit.Ignore;
 import org.junit.Test;
 import pages.MarketElec;
 import pages.MarketMain;
@@ -5,7 +7,7 @@ import pages.MarketSearch;
 import pages.YaMain;
 
 public class YandexBuy extends BaseTest{
-
+    @Ignore
     @Test
     public void yandexBuy () {
 
@@ -32,3 +34,4 @@ public class YandexBuy extends BaseTest{
     }
 
 }
+*/

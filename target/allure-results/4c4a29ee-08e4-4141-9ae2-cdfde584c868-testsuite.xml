@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1518391654261" stop="1518391654395" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Яндекс</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1518391654315" stop="1518391654365" status="pending">
+            <name>Поиск телевизора в Яндекс.Маркете</name>
+            <title>Поиск телевизора в Яндекс.Маркете</title>
+            <description type="text"></description>
+            <failure>
+                <message>Unimplemented steps were found</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1518391654345" stop="1518391654350" status="canceled">
+                    <name>выбран элемент главного меню "Маркет"</name>
+                    <title>выбран элемент главного меню "Маркет"</title>
+                </step>
+                <step start="1518391654360" stop="1518391654360" status="canceled">
+                    <name>выбран элемент меню "Электроника"</name>
+                    <title>выбран элемент меню "Электроника"</title>
+                </step>
+                <step start="1518391654360" stop="1518391654360" status="canceled">
+                    <name>выбрана категория товара "Телевизоры"</name>
+                    <title>выбрана категория товара "Телевизоры"</title>
+                </step>
+                <step start="1518391654360" stop="1518391654360" status="canceled">
+                    <name>заполнен фильтр цены от "20000"</name>
+                    <title>заполнен фильтр цены от "20000"</title>
+                </step>
+                <step start="1518391654360" stop="1518391654360" status="canceled">
+                    <name>заполнен фильтр производителей товара "LG"</name>
+                    <title>заполнен фильтр производителей товара "LG"</title>
+                </step>
+                <step start="1518391654360" stop="1518391654360" status="canceled">
+                    <name>заполнен фильтр производителей товара "Samsung"</name>
+                    <title>заполнен фильтр производителей товара "Samsung"</title>
+                </step>
+                <step start="1518391654360" stop="1518391654360" status="canceled">
+                    <name>нажата кнопка применения фильтров</name>
+                    <title>нажата кнопка применения фильтров</title>
+                </step>
+                <step start="1518391654360" stop="1518391654360" status="canceled">
+                    <name>проверено число телевизоров на странице, которое должно быть равно "12"</name>
+                    <title>проверено число телевизоров на странице, которое должно быть равно "12"</title>
+                </step>
+                <step start="1518391654360" stop="1518391654360" status="canceled">
+                    <name>запомнено название первого телевизора в списке</name>
+                    <title>запомнено название первого телевизора в списке</title>
+                </step>
+                <step start="1518391654360" stop="1518391654360" status="canceled">
+                    <name>произведен поиск по первому телевизору</name>
+                    <title>произведен поиск по первому телевизору</title>
+                </step>
+                <step start="1518391654360" stop="1518391654360" status="canceled">
+                    <name>проверено значение заголовка телевизора с запомненным значением</name>
+                    <title>проверено значение заголовка телевизора с запомненным значением</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Поиск телевизора в Яндекс.Маркете"/>
+                <label name="feature" value="Яндекс"/>
+                <label name="host" value="Computer"/>
+                <label name="thread" value="3096@Computer.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1518391654370" stop="1518391654385" status="pending">
+            <name>Поиск наушников в Яндекс.Маркете</name>
+            <title>Поиск наушников в Яндекс.Маркете</title>
+            <description type="text"></description>
+            <failure>
+                <message>Unimplemented steps were found</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1518391654385" stop="1518391654385" status="canceled">
+                    <name>выбран элемент главного меню "Маркет"</name>
+                    <title>выбран элемент главного меню "Маркет"</title>
+                </step>
+                <step start="1518391654385" stop="1518391654385" status="canceled">
+                    <name>выбран элемент меню "Электроника"</name>
+                    <title>выбран элемент меню "Электроника"</title>
+                </step>
+                <step start="1518391654385" stop="1518391654385" status="canceled">
+                    <name>выбрана категория товара "Наушники"</name>
+                    <title>выбрана категория товара "Наушники"</title>
+                </step>
+                <step start="1518391654385" stop="1518391654385" status="canceled">
+                    <name>заполнен фильтр цены от "5000"</name>
+                    <title>заполнен фильтр цены от "5000"</title>
+                </step>
+                <step start="1518391654385" stop="1518391654385" status="canceled">
+                    <name>заполнен фильтр производителей товара "Beats"</name>
+                    <title>заполнен фильтр производителей товара "Beats"</title>
+                </step>
+                <step start="1518391654385" stop="1518391654385" status="canceled">
+                    <name>нажата кнопка применения фильтров</name>
+                    <title>нажата кнопка применения фильтров</title>
+                </step>
+                <step start="1518391654385" stop="1518391654385" status="canceled">
+                    <name>проверено число наушников на странице, которое должно быть равно "12"</name>
+                    <title>проверено число наушников на странице, которое должно быть равно "12"</title>
+                </step>
+                <step start="1518391654385" stop="1518391654385" status="canceled">
+                    <name>запомнено название первых наушников в списке</name>
+                    <title>запомнено название первых наушников в списке</title>
+                </step>
+                <step start="1518391654385" stop="1518391654385" status="canceled">
+                    <name>произведен поиск по первым наушникам</name>
+                    <title>произведен поиск по первым наушникам</title>
+                </step>
+                <step start="1518391654385" stop="1518391654385" status="canceled">
+                    <name>проверено значение заголовка наушников с запомненным значением</name>
+                    <title>проверено значение заголовка наушников с запомненным значением</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Поиск наушников в Яндекс.Маркете"/>
+                <label name="feature" value="Яндекс"/>
+                <label name="host" value="Computer"/>
+                <label name="thread" value="3096@Computer.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Яндекс"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

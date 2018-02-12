@@ -1,59 +1,59 @@
 {
   "features" : [ {
-    "title" : "Яндекс.Маркет",
+    "title" : "Яндекс",
     "statistic" : {
       "total" : 2,
       "passed" : 0,
-      "pending" : 0,
+      "pending" : 2,
       "canceled" : 0,
       "failed" : 0,
-      "broken" : 2
+      "broken" : 0
     },
     "stories" : [ {
-      "uid" : "fb8a7a94ea13eab1",
+      "uid" : "307bc8aaafe9a449",
       "title" : "Поиск телевизора в Яндекс.Маркете",
       "statistic" : {
         "total" : 1,
         "passed" : 0,
-        "pending" : 0,
+        "pending" : 1,
         "canceled" : 0,
         "failed" : 0,
-        "broken" : 1
+        "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "c6b777a072eedba7",
+        "uid" : "a8a17440305e6072",
         "name" : "Поиск телевизора в Яндекс.Маркете",
         "title" : "Поиск телевизора в Яндекс.Маркете",
         "time" : {
-          "start" : 1518393646881,
-          "stop" : 1518393647793,
-          "duration" : 912
+          "start" : 1518391654315,
+          "stop" : 1518391654365,
+          "duration" : 50
         },
         "severity" : "NORMAL",
-        "status" : "BROKEN"
+        "status" : "PENDING"
       } ]
     }, {
-      "uid" : "31f5a8fcfe79a471",
+      "uid" : "9794ef6b121e4fd6",
       "title" : "Поиск наушников в Яндекс.Маркете",
       "statistic" : {
         "total" : 1,
         "passed" : 0,
-        "pending" : 0,
+        "pending" : 1,
         "canceled" : 0,
         "failed" : 0,
-        "broken" : 1
+        "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "c5d908792b3055b0",
+        "uid" : "58a75b39e1c541d8",
         "name" : "Поиск наушников в Яндекс.Маркете",
         "title" : "Поиск наушников в Яндекс.Маркете",
         "time" : {
-          "start" : 1518393647808,
-          "stop" : 1518393647839,
-          "duration" : 31
+          "start" : 1518391654370,
+          "stop" : 1518391654385,
+          "duration" : 15
         },
         "severity" : "NORMAL",
-        "status" : "BROKEN"
+        "status" : "PENDING"
       } ]
     } ]
   } ]

@@ -1,0 +1,224 @@
+{
+  "uid" : "a8a17440305e6072",
+  "name" : "Поиск телевизора в Яндекс.Маркете",
+  "title" : "Поиск телевизора в Яндекс.Маркете",
+  "time" : {
+    "start" : 1518391654315,
+    "stop" : 1518391654365,
+    "duration" : 50
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 11
+  },
+  "failure" : {
+    "message" : "Unimplemented steps were found",
+    "stackTrace" : "There are no stack trace"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "suite" : {
+    "uid" : "360162b32edf5a20",
+    "name" : "Яндекс",
+    "title" : "Яндекс"
+  },
+  "steps" : [ {
+    "name" : "выбран элемент главного меню \"Маркет\"",
+    "title" : "выбран элемент главного меню \"Маркет\"",
+    "time" : {
+      "start" : 1518391654345,
+      "stop" : 1518391654350,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "выбран элемент меню \"Электроника\"",
+    "title" : "выбран элемент меню \"Электроника\"",
+    "time" : {
+      "start" : 1518391654360,
+      "stop" : 1518391654360,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "выбрана категория товара \"Телевизоры\"",
+    "title" : "выбрана категория товара \"Телевизоры\"",
+    "time" : {
+      "start" : 1518391654360,
+      "stop" : 1518391654360,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "заполнен фильтр цены от \"20000\"",
+    "title" : "заполнен фильтр цены от \"20000\"",
+    "time" : {
+      "start" : 1518391654360,
+      "stop" : 1518391654360,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "заполнен фильтр производителей товара \"LG\"",
+    "title" : "заполнен фильтр производителей товара \"LG\"",
+    "time" : {
+      "start" : 1518391654360,
+      "stop" : 1518391654360,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "заполнен фильтр производителей товара \"Samsung\"",
+    "title" : "заполнен фильтр производителей товара \"Samsung\"",
+    "time" : {
+      "start" : 1518391654360,
+      "stop" : 1518391654360,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "нажата кнопка применения фильтров",
+    "title" : "нажата кнопка применения фильтров",
+    "time" : {
+      "start" : 1518391654360,
+      "stop" : 1518391654360,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "проверено число телевизоров на странице, которое должно быть равно \"12\"",
+    "title" : "проверено число телевизоров на странице, которое должно быть равно \"12\"",
+    "time" : {
+      "start" : 1518391654360,
+      "stop" : 1518391654360,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "запомнено название первого телевизора в списке",
+    "title" : "запомнено название первого телевизора в списке",
+    "time" : {
+      "start" : 1518391654360,
+      "stop" : 1518391654360,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "произведен поиск по первому телевизору",
+    "title" : "произведен поиск по первому телевизору",
+    "time" : {
+      "start" : 1518391654360,
+      "stop" : 1518391654360,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "проверено значение заголовка телевизора с запомненным значением",
+    "title" : "проверено значение заголовка телевизора с запомненным значением",
+    "time" : {
+      "start" : 1518391654360,
+      "stop" : 1518391654360,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Поиск телевизора в Яндекс.Маркете"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Яндекс"
+  }, {
+    "name" : "suite-name",
+    "value" : "Яндекс"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "Computer"
+  }, {
+    "name" : "thread",
+    "value" : "3096@Computer.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

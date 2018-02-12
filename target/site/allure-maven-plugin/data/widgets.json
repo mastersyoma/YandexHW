@@ -5,52 +5,47 @@
       "statistic" : {
         "total" : 2,
         "passed" : 0,
-        "pending" : 0,
+        "pending" : 2,
         "canceled" : 0,
         "failed" : 0,
-        "broken" : 2
+        "broken" : 0
       },
       "time" : {
-        "start" : 1518393646881,
-        "stop" : 1518393647839,
-        "duration" : 958
+        "start" : 1518391654315,
+        "stop" : 1518391654385,
+        "duration" : 70
       }
     },
     "defects" : {
-      "totalCount" : 1,
-      "items" : [ {
-        "count" : 2,
-        "uid" : "2d8b75351ee9881a",
-        "message" : "NullPointerException: null",
-        "status" : "BROKEN"
-      } ]
+      "totalCount" : 0,
+      "items" : [ ]
     },
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "9247b46817f26ca7",
-        "title" : "Маркет",
+        "uid" : "360162b32edf5a20",
+        "title" : "Яндекс",
         "statistic" : {
           "total" : 2,
           "passed" : 0,
-          "pending" : 0,
+          "pending" : 2,
           "canceled" : 0,
           "failed" : 0,
-          "broken" : 2
+          "broken" : 0
         }
       } ]
     },
     "behaviors" : {
       "totalCount" : 1,
       "items" : [ {
-        "title" : "Яндекс.Маркет",
+        "title" : "Яндекс",
         "statistic" : {
           "total" : 2,
           "passed" : 0,
-          "pending" : 0,
+          "pending" : 2,
           "canceled" : 0,
           "failed" : 0,
-          "broken" : 2
+          "broken" : 0
         }
       } ]
     },

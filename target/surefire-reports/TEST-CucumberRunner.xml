@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="4.517" tests="21" errors="4" skipped="17" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="3.788" tests="25" errors="0" skipped="23" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin"/>
     <property name="java.vm.version" value="25.162-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Семён\IdeaProjects\finaltask"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Семён\IdeaProjects\YandexHW"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Семён\IdeaProjects\finaltask"/>
+    <property name="user.dir" value="C:\Users\Семён\IdeaProjects\YandexHW"/>
     <property name="java.runtime.version" value="1.8.0_162-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\endorsed"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_162\jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.3.4 -T 2 clean -Denvironment=application install"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.3.4 clean -Denvironment=environment install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="ru"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -53,7 +53,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="environment" value="application"/>
+    <property name="environment" value="environment"/>
     <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.1\plugins\maven\lib\maven3"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
@@ -62,13 +62,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Когда выбран элемент главного меню &quot;Маркет&quot;" classname="Сценарий: Поиск телевизора в Яндекс.Маркете" time="0.031">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-  </testcase>
-  <testcase name="Сценарий: Поиск телевизора в Яндекс.Маркете" classname="Сценарий: Поиск телевизора в Яндекс.Маркете" time="0.031">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
+  <testcase name="Когда выбран элемент главного меню &quot;Маркет&quot;" classname="Сценарий: Поиск телевизора в Яндекс.Маркете" time="0">
+    <skipped/>
   </testcase>
   <testcase name="И выбран элемент меню &quot;Электроника&quot;" classname="Сценарий: Поиск телевизора в Яндекс.Маркете" time="0">
     <skipped/>
@@ -97,13 +92,15 @@
   <testcase name="Когда произведен поиск по первому телевизору" classname="Сценарий: Поиск телевизора в Яндекс.Маркете" time="0">
     <skipped/>
   </testcase>
-  <testcase name="Когда выбран элемент главного меню &quot;Маркет&quot;" classname="Сценарий: Поиск наушников в Яндекс.Маркете" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
+  <testcase name="Тогда проверено значение заголовка телевизора с запомненным значением" classname="Сценарий: Поиск телевизора в Яндекс.Маркете" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="Сценарий: Поиск наушников в Яндекс.Маркете" classname="Сценарий: Поиск наушников в Яндекс.Маркете" time="0.016">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
+  <testcase name="Сценарий: Поиск телевизора в Яндекс.Маркете" classname="Сценарий: Поиск телевизора в Яндекс.Маркете" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Сценарий: Поиск телевизора в Яндекс.Маркете" classname="Сценарий: Поиск телевизора в Яндекс.Маркете" time="0.104"/>
+  <testcase name="Когда выбран элемент главного меню &quot;Маркет&quot;" classname="Сценарий: Поиск наушников в Яндекс.Маркете" time="0">
+    <skipped/>
   </testcase>
   <testcase name="И выбран элемент меню &quot;Электроника&quot;" classname="Сценарий: Поиск наушников в Яндекс.Маркете" time="0">
     <skipped/>
@@ -129,4 +126,11 @@
   <testcase name="Когда произведен поиск по первым наушникам" classname="Сценарий: Поиск наушников в Яндекс.Маркете" time="0">
     <skipped/>
   </testcase>
+  <testcase name="Тогда проверено значение заголовка наушников с запомненным значением" classname="Сценарий: Поиск наушников в Яндекс.Маркете" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Сценарий: Поиск наушников в Яндекс.Маркете" classname="Сценарий: Поиск наушников в Яндекс.Маркете" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Сценарий: Поиск наушников в Яндекс.Маркете" classname="Сценарий: Поиск наушников в Яндекс.Маркете" time="0.02"/>
 </testsuite>

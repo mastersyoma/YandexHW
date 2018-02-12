@@ -1,0 +1,209 @@
+{
+  "uid" : "58a75b39e1c541d8",
+  "name" : "Поиск наушников в Яндекс.Маркете",
+  "title" : "Поиск наушников в Яндекс.Маркете",
+  "time" : {
+    "start" : 1518391654370,
+    "stop" : 1518391654385,
+    "duration" : 15
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 10
+  },
+  "failure" : {
+    "message" : "Unimplemented steps were found",
+    "stackTrace" : "There are no stack trace"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "suite" : {
+    "uid" : "360162b32edf5a20",
+    "name" : "Яндекс",
+    "title" : "Яндекс"
+  },
+  "steps" : [ {
+    "name" : "выбран элемент главного меню \"Маркет\"",
+    "title" : "выбран элемент главного меню \"Маркет\"",
+    "time" : {
+      "start" : 1518391654385,
+      "stop" : 1518391654385,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "выбран элемент меню \"Электроника\"",
+    "title" : "выбран элемент меню \"Электроника\"",
+    "time" : {
+      "start" : 1518391654385,
+      "stop" : 1518391654385,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "выбрана категория товара \"Наушники\"",
+    "title" : "выбрана категория товара \"Наушники\"",
+    "time" : {
+      "start" : 1518391654385,
+      "stop" : 1518391654385,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "заполнен фильтр цены от \"5000\"",
+    "title" : "заполнен фильтр цены от \"5000\"",
+    "time" : {
+      "start" : 1518391654385,
+      "stop" : 1518391654385,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "заполнен фильтр производителей товара \"Beats\"",
+    "title" : "заполнен фильтр производителей товара \"Beats\"",
+    "time" : {
+      "start" : 1518391654385,
+      "stop" : 1518391654385,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "нажата кнопка применения фильтров",
+    "title" : "нажата кнопка применения фильтров",
+    "time" : {
+      "start" : 1518391654385,
+      "stop" : 1518391654385,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "проверено число наушников на странице, которое должно быть равно \"12\"",
+    "title" : "проверено число наушников на странице, которое должно быть равно \"12\"",
+    "time" : {
+      "start" : 1518391654385,
+      "stop" : 1518391654385,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "запомнено название первых наушников в списке",
+    "title" : "запомнено название первых наушников в списке",
+    "time" : {
+      "start" : 1518391654385,
+      "stop" : 1518391654385,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "произведен поиск по первым наушникам",
+    "title" : "произведен поиск по первым наушникам",
+    "time" : {
+      "start" : 1518391654385,
+      "stop" : 1518391654385,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "проверено значение заголовка наушников с запомненным значением",
+    "title" : "проверено значение заголовка наушников с запомненным значением",
+    "time" : {
+      "start" : 1518391654385,
+      "stop" : 1518391654385,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Поиск наушников в Яндекс.Маркете"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Яндекс"
+  }, {
+    "name" : "suite-name",
+    "value" : "Яндекс"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "Computer"
+  }, {
+    "name" : "thread",
+    "value" : "3096@Computer.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}
