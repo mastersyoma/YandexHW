@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 0, Errors: 4, Skipped: 17, Time elapsed: 4.517 s <<< FAILURE! - in CucumberRunner
+Когда выбран элемент главного меню "Маркет"(Сценарий: Поиск телевизора в Яндекс.Маркете)  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.NullPointerException
+
+Сценарий: Поиск телевизора в Яндекс.Маркете  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.NullPointerException
+
+Когда выбран элемент главного меню "Маркет"(Сценарий: Поиск наушников в Яндекс.Маркете)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Сценарий: Поиск наушников в Яндекс.Маркете  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1518393646818" stop="1518393647855" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Яндекс.Маркет</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1518393646881" stop="1518393647793" status="broken">
+            <name>Поиск телевизора в Яндекс.Маркете</name>
+            <title>Поиск телевизора в Яндекс.Маркете</title>
+            <description type="text"></description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.findElement(Unknown Source)
+	at yandexhw.pages.YaMain.setYaButt(YaMain.java:26)
+	at yandexhw.steps.YaMainStep.setYaButtStep(YaMainStep.java:11)
+	at yandexhw.steps.ScenarioSteps.setYaButt(ScenarioSteps.java:17)
+	at ✽.Когда выбран элемент главного меню "Маркет"(Yandex.feature:5)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1518393646896" stop="1518393647777" status="broken">
+                    <name>Когда выбран элемент главного меню "Маркет"</name>
+                    <title>Когда выбран элемент главного меню "Маркет"</title>
+                    <steps>
+                        <step start="1518393647600" stop="1518393647730" status="broken">
+                            <name>setYaButtStep[Маркет]</name>
+                            <title>Выбран раздел Маркет</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518393647777" stop="1518393647793" status="canceled">
+                    <name>И выбран элемент меню "Электроника"</name>
+                    <title>И выбран элемент меню "Электроника"</title>
+                </step>
+                <step start="1518393647793" stop="1518393647793" status="canceled">
+                    <name>И выбрана категория товара "Телевизоры"</name>
+                    <title>И выбрана категория товара "Телевизоры"</title>
+                </step>
+                <step start="1518393647793" stop="1518393647793" status="canceled">
+                    <name>И заполнен фильтр цены от "20000"</name>
+                    <title>И заполнен фильтр цены от "20000"</title>
+                </step>
+                <step start="1518393647793" stop="1518393647793" status="canceled">
+                    <name>И заполнен фильтр производителей товара "LG"</name>
+                    <title>И заполнен фильтр производителей товара "LG"</title>
+                </step>
+                <step start="1518393647793" stop="1518393647793" status="canceled">
+                    <name>И заполнен фильтр производителей товара "Samsung"</name>
+                    <title>И заполнен фильтр производителей товара "Samsung"</title>
+                </step>
+                <step start="1518393647793" stop="1518393647793" status="canceled">
+                    <name>И нажата кнопка применения фильтров</name>
+                    <title>И нажата кнопка применения фильтров</title>
+                </step>
+                <step start="1518393647793" stop="1518393647793" status="canceled">
+                    <name>Тогда проверено число телевизоров на странице, которое должно быть равно "12"</name>
+                    <title>Тогда проверено число телевизоров на странице, которое должно быть равно "12"</title>
+                </step>
+                <step start="1518393647793" stop="1518393647793" status="canceled">
+                    <name>И запомнено название первого телевизора в списке</name>
+                    <title>И запомнено название первого телевизора в списке</title>
+                </step>
+                <step start="1518393647793" stop="1518393647793" status="canceled">
+                    <name>Когда произведен поиск по первому телевизору</name>
+                    <title>Когда произведен поиск по первому телевизору</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Поиск телевизора в Яндекс.Маркете"/>
+                <label name="feature" value="Яндекс.Маркет"/>
+                <label name="host" value="Computer"/>
+                <label name="thread" value="5888@Computer.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1518393647808" stop="1518393647839" status="broken">
+            <name>Поиск наушников в Яндекс.Маркете</name>
+            <title>Поиск наушников в Яндекс.Маркете</title>
+            <description type="text"></description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.findElement(Unknown Source)
+	at yandexhw.pages.YaMain.setYaButt(YaMain.java:26)
+	at yandexhw.steps.YaMainStep.setYaButtStep(YaMainStep.java:11)
+	at yandexhw.steps.ScenarioSteps.setYaButt(ScenarioSteps.java:17)
+	at ✽.Когда выбран элемент главного меню "Маркет"(Yandex.feature:16)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1518393647808" stop="1518393647824" status="broken">
+                    <name>Когда выбран элемент главного меню "Маркет"</name>
+                    <title>Когда выбран элемент главного меню "Маркет"</title>
+                    <steps>
+                        <step start="1518393647808" stop="1518393647808" status="broken">
+                            <name>setYaButtStep[Маркет]</name>
+                            <title>Выбран раздел Маркет</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518393647824" stop="1518393647824" status="canceled">
+                    <name>И выбран элемент меню "Электроника"</name>
+                    <title>И выбран элемент меню "Электроника"</title>
+                </step>
+                <step start="1518393647824" stop="1518393647824" status="canceled">
+                    <name>И выбрана категория товара "Наушники"</name>
+                    <title>И выбрана категория товара "Наушники"</title>
+                </step>
+                <step start="1518393647824" stop="1518393647824" status="canceled">
+                    <name>И заполнен фильтр цены от "5000"</name>
+                    <title>И заполнен фильтр цены от "5000"</title>
+                </step>
+                <step start="1518393647824" stop="1518393647824" status="canceled">
+                    <name>И заполнен фильтр производителей товара "Beats"</name>
+                    <title>И заполнен фильтр производителей товара "Beats"</title>
+                </step>
+                <step start="1518393647824" stop="1518393647839" status="canceled">
+                    <name>И нажата кнопка применения фильтров</name>
+                    <title>И нажата кнопка применения фильтров</title>
+                </step>
+                <step start="1518393647839" stop="1518393647839" status="canceled">
+                    <name>Тогда проверено число наушников на странице, которое должно быть равно "12"</name>
+                    <title>Тогда проверено число наушников на странице, которое должно быть равно "12"</title>
+                </step>
+                <step start="1518393647839" stop="1518393647839" status="canceled">
+                    <name>И запомнено название первых наушников в списке</name>
+                    <title>И запомнено название первых наушников в списке</title>
+                </step>
+                <step start="1518393647839" stop="1518393647839" status="canceled">
+                    <name>Когда произведен поиск по первым наушникам</name>
+                    <title>Когда произведен поиск по первым наушникам</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Поиск наушников в Яндекс.Маркете"/>
+                <label name="feature" value="Яндекс.Маркет"/>
+                <label name="host" value="Computer"/>
+                <label name="thread" value="5888@Computer.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Яндекс.Маркет"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
